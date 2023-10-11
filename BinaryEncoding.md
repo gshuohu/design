@@ -23,7 +23,7 @@ The encoding is split into three layers:
 * **Layer 2** [:unicorn:][future compression] Layer 2 applies generic compression algorithms, like [gzip](http://www.gzip.org/) and [Brotli](https://datatracker.ietf.org/doc/draft-alakuijala-brotli/), that are already available in browsers and other tooling.
 
 Most importantly, the layering approach allows development and standardization to
-occur incrementally. For example, Layer 1 and Layer 3 encoding techniques can be
+occur incrementally. For example, Layer 1 and Layer 2 encoding techniques can be
 experimented with by application-level decompressing to the layer below. As
 compression techniques  stabilize, they can be standardized and moved into native
 implementations.
